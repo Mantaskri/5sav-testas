@@ -1,0 +1,40 @@
+/* base */
+@import "../base/base.css";
+@import "../base/layout.css";
+
+/* 3rd-party */
+@import '../3rd-party/font-awesome.min.css';
+
+/* components */
+@import '../components/clock.css';
+@import '../components/form.css';
+@import '../components/button.css';
+@import '../components/mouse.css';
+@import '../components/progress-bar.css';
+
+/* Custom style goes here */
+/* HERO - start */
+
+
+.column {
+    margin-top: 80px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 80%;
+}
+.head{
+    align-self: center;
+    width: 80%;
+    color: blue;
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 40px;
+
+}
+footer{
+    color: #9CDCCC;
+    width: 80%;
+}

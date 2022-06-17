@@ -1,0 +1,12 @@
+.btn {
+    padding: 1em 3em;
+    border-radius: 2em;
+    font-size: 14px;
+    line-height: 1em;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    align-self: center;
+}

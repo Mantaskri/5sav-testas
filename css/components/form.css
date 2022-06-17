@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.form label {
+    display: none;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    line-height: 20px;
+    font-size: 18px;
+    color: darkblue;
+    background-color: #A5B1FD;
+}
+.form > .smaller{
+    width: 49%;
+    background-color: #DCE1FF;
+}
+
+.form textarea {
+    min-height: 60px;
+    height: 100px;
+    max-height: 240px;
+    resize: vertical;
+    background-color: #A5B1FD;
+}
